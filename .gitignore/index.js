@@ -36,6 +36,14 @@ client.on('message', (message) => {
                 message.channel.send("Oh géant vert !!!");
                 message.channel.send("Fait toi petit");
             }
+            else if (user.username == "Asikoglu Hasan"){
+                message.channel.send("Cassez lui sa M5 !");
+                message.channel.send("Et qu'il se la ramène plus");
+            }
+            else if (user.username == "khalid EN"){
+                message.channel.send("Appelé moi Matis");
+                message.channel.send("Qu'il lui nike sa grand mère");
+            }
         });
 
         message.channel.send(avatar);
