@@ -1,4 +1,4 @@
 {
     "prefix": "%",
-    "token": "NzcyMDY4MTYxNzA0MTY1Mzc2.X51Sgg.x0KJsLVPiq2Cv33GYa_jRilAtsI"
+    "token": process.env.TOKEN
 }
