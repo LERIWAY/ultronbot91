@@ -16,7 +16,7 @@ client.on('message', (message) => {
     if (command === `insulte`){        
         const avatar = message.mentions.users.map(user => {
             if (user.username == "MEE6"){
-                message.channel.send("C'est qui lui ? Un cousin ?");
+                message.channel.send("C'est qui lui ? Un cousin ? :vnr:");
             }
             else if (user.username == "Groovy"){
                 message.channel.send("Qu'il met du bon son ce bâtard de DJ");
@@ -43,6 +43,10 @@ client.on('message', (message) => {
             else if (user.username == "khalid EN"){
                 message.channel.send("Appelé moi Matis");
                 message.channel.send("Qu'il lui nike sa grand mère");
+            }
+            else if (user.username == "Murat"){
+                message.channel.send("La gonflette tu te calme !");
+                message.channel.send("Avant que j'te dégonfle :vnr:");
             }
         });
 
